@@ -7,8 +7,11 @@
   padding: 0;
 }
 
+
 body {
   font-family: "Poppins", sans-serif;
+  background:linear-gradient(to bottom, #dbdbdb 0%, #7cafde, #dbdbdb 100%);
+  
 }
 
 html {
@@ -16,7 +19,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(38, 38, 38);
 }
 
 /* TRANSITION */
@@ -52,10 +55,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(5, 70, 103);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(5, 70, 103);
 }
 
 .logo {
@@ -67,6 +70,9 @@ a:hover {
 }
 .abdalazaghabc-pic{
     border-radius: 50%;
+    border: 3px solid #000;
+    box-shadow: 9px 9px 9px 9px #757474;
+
 }
 
 /* HAMBURGER MENU */
@@ -115,6 +121,11 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+  background-color: rgb(5, 70, 103);
+  color: white;
 }
 
 .menu-links li {
@@ -276,6 +287,7 @@ section {
   margin-top: 2rem;
 }
 
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -290,20 +302,30 @@ section {
   border-radius: 2rem;
 }
 
+.bio-text {
+  text-align: justify;
+  color: black;
+  font-size: 1.1rem;
+}
 .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
 }
+.arrow:hover {
+  cursor: pointer;
+  bottom: 2.2rem;
+}
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: linear-gradient(to right, #ffffff 0%, #e7e5e5 40%);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .section-container {
@@ -324,7 +346,9 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
