@@ -305,7 +305,7 @@ section {
 .bio-text {
   text-align: justify;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .arrow {
   position: absolute;
@@ -393,8 +393,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 .project-title {
